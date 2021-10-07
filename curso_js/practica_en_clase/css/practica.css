@@ -1,0 +1,30 @@
+body{
+    background-color: yellow;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.5rem;
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card{
+    border-radius: 2%;
+    border: black solid 1px;
+    margin: 8rem;
+    height: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: yellowgreen;
+    
+}
+
+.label{
+    text-align: inherit;
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
