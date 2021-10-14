@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>conunt text  twitt</title>
+</head>
+<body>
+
+   
+        <div class="barra">
+            <h2>Bienvenido:  </h2>
+        <h1 id="inicial"> </h1>
+        
+    </div>
+        
+    
+
+    <div class="card-body">
+        <div class="card">
+            <form id="form">
+            <input class="nombre" type="text" id="nombre"  placeholder="ingrese su nombre">
+            <textarea class="text_box" name="limite" onKeyDown="limitText(this.form.limite,this.form.contador,200);" 
+            onKeyUp="limitText(this.form.limite,this.form.contador,200);">
+            </textarea><br>
+            <p>(Maximo de caracteres permitidos: 200)</p><br>
+            <p id="quedan"></p>
+            <p>Tienes <input readonly type="text" name="contador" size="3" value="200"> caracteres</p>
+            
+                
+        </form>
+        <p id="count_text"></p>
+        </div>
+    </div>
+    <script src="js/count.js"></script>
+</body>
+</html>

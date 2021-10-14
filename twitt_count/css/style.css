@@ -1,0 +1,47 @@
+body{
+    background-color:#82b1ff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barra{
+    background-color: antiquewhite;
+    width: 400px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+    
+.quedan{
+    color: red;
+
+}   
+
+
+.text_box{
+    width: 250px;
+    height: 360px;
+    margin-top: 2rem;
+    border-radius: 0.50rem;
+    margin: 4rem;
+    
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid black 0.2px;
+    width: 400px;
+    align-items: center;
+    background-color: rgb(245, 152, 13);
+   
+}

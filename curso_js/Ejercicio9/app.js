@@ -30,9 +30,12 @@ select.addEventListener("change",
       // console.log("salio bien");
       //imprimo los datos del producto correspondiente
       document.getElementById("result").textContent = "producto: " + element.detail;
+      document.getElementById("tituloProducto").textContent ="" +element.detail;
       document.getElementById("precio").textContent = "precio: " + element.price;
-      console.log(element.image);
-      // document.getElementById("imagen").textContent = element.image;
+      document.getElementById('imagen').setAttribute('src', element.image);
+      // console.log(element.image);
+      
+      
       //valido si es true o false para saber el estado de disponibilidad
       if(element.offer == true){
       document.getElementById("estado").textContent = "estado: Disponible";
@@ -44,6 +47,13 @@ select.addEventListener("change",
   
   });
 });
+
+// let image = new Image();
+// image.onload = function(){
+//   document.getElementById("imagen").setAttribute = ('src', element.image);
+
+// };
+// image.src = 'images/arroz.jpg'
 
 
 
