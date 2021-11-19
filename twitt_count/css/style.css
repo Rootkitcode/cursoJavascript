@@ -5,9 +5,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .barra{
-    background-color: antiquewhite;
+    background-color: rgb(25, 174, 201);
     width: 400px;
     
     text-align: center;
@@ -33,6 +36,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: initial;
+    
 
 }
 
@@ -42,6 +49,9 @@ body{
     border: solid black 0.2px;
     width: 400px;
     align-items: center;
-    background-color: rgb(245, 152, 13);
+    background-color: rgb(1, 67, 143);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
    
 }
