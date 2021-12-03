@@ -1,10 +1,12 @@
+
+//ciclo foreach
 let marcas = ['Avon', 'amway', 'Ebbel'];
 marcas.forEach(element => {
     console.log(element);
 
 });
 
-
+// ciclo for in
 let animales = { 1: 'perro', 2: 'gato', 3: 'ave' };
 for (anim in animales) {
     console.log(anim);
@@ -33,3 +35,4 @@ for (let i = 0; i < personas.length; i++) {
 }
 
 personas.forEach(element => console.log(element.edad));
+

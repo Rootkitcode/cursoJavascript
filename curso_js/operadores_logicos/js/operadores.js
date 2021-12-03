@@ -35,3 +35,5 @@ let minute = 30;
 if (hours == 12 && minute == 30) {
     console.log(`Son las ${hours}:${minute}`);
 }
+
+//! not
